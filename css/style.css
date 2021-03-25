@@ -1,0 +1,109 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containergeneral{
+    width: 60%;
+    margin: auto;
+    /* text-align: center; */
+}
+header {
+
+    background-color: black;
+    width: 100%;
+}
+
+.logo span{
+    /* color:  rgb(184,93,21); */
+    color: rgb(195,148,83);
+    font-size: 1.5rem;
+}
+.one_nav{
+
+  
+    max-height: 71px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.list_header{
+    /* display: block; */
+    padding: 15px;
+}
+
+.list li {
+    display:inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px 10px;
+}
+.onecolor:first-child{
+    /* color:  rgb(184,93,21); */
+    color: rgb(195,148,83);
+}
+.list li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.list li a:hover{
+    color: rgb(195,148,83);
+}
+
+
+
+/*  work two  for sectionone */
+
+.onesection{
+    background-color: rgb(40,39,38);
+}
+
+.workher{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.infohome h1{
+    color: white;
+    font-size: 2rem;
+}
+
+.paraone{
+    color: rgb(139,112,74);
+    font-size: 3rem;
+}
+.paratwo{
+    /* color: rgb(72,63,54); */
+
+    color: rgb(122,136,137)
+    ;
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 1rem;
+    text-align: justify;
+
+
+
+}
+
+
+.imgend img{
+
+    margin-bottom: -100px;
+}
+
+
+/*
+
+*/
+
+.twosection{
+    margin-top: 100px;
+    background-color: rgb(228,228,228);
+}
